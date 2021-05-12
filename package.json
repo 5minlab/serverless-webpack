@@ -1,13 +1,13 @@
 {
-  "name": "serverless-webpack",
-  "version": "5.3.5",
+  "name": "@5minlab/serverless-webpack",
+  "version": "1.0.0",
   "description": "Serverless plugin to bundle your javascript with Webpack",
   "main": "index.js",
   "types": "index.d.ts",
   "author": "Frank Schmid <fschmid740@googlemail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serverless-heaven/serverless-webpack.git"
+    "url": "git+https://github.com/5minlab/serverless-webpack.git"
   },
   "keywords": [
     "serverless",
@@ -24,9 +24,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/serverless-heaven/serverless-webpack/issues"
+    "url": "https://github.com/5minlab/serverless-webpack/issues"
   },
-  "homepage": "https://github.com/serverless-heaven/serverless-webpack#readme",
+  "homepage": "https://github.com/5minlab/serverless-webpack#readme",
   "scripts": {
     "test": "mocha tests/all index.test.js \"lib/**/*.test.js\" -R spec --recursive",
     "test-coverage": "nyc ./node_modules/mocha/bin/_mocha tests/all index.test.js \"lib/**/*.test.js\" -R spec --recursive",
