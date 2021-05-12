@@ -1,6 +1,6 @@
 {
   "name": "@5minlab/serverless-webpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Serverless plugin to bundle your javascript with Webpack",
   "main": "index.js",
   "types": "index.d.ts",
